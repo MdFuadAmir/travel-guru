@@ -30,10 +30,13 @@ const Header = () => {
     </ul>
   </div>
   <div className="ml-4">
-    <button className="btn px-8 bg-yellow-500 border-none">Login</button>
+    <NavLink to="/login">
+    <button className="px-8 bg-yellow-500 btn border-none">Login</button>
+    </NavLink>
+    
   </div>
 </div>
-    );
+);
 };
 
 export default Header;

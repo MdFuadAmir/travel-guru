@@ -7,7 +7,7 @@ import img4 from "../../assets/images/Rectangle 28.png"
 
 const Home = () => {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="bg-gray-300 h-[100vh] mx-auto">
             <Header></Header>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="text-xl p-5">
