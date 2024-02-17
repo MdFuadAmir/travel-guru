@@ -7,12 +7,12 @@ import img4 from "../../assets/images/Rectangle 28.png"
 
 const Home = () => {
     return (
-        <div className="bg-gray-300 h-[100vh] mx-auto">
+        <div className="h-[100vh] mx-auto">
             <Header></Header>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="text-xl p-5">
-                    <h2 className="text-6xl font-bold text-white">COX S BAZAR</h2>
-                    <p className="mt-4 text-white">Cox s Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                    <h2 className="text-6xl font-bold">COX S BAZAR</h2>
+                    <p className="mt-4">Cox s Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
                     <button className="btn px-6 mt-6 bg-yellow-500 border-none">Booking  <FaArrowRight></FaArrowRight></button>
                 </div>
                 {/* currusol */}

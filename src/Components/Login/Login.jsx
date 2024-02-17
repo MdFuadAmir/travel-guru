@@ -2,14 +2,26 @@ import { Link } from "react-router-dom";
 import Header from "../../Shared/Header/Header";
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+
+
+
 const Login = () => {
+   
+    const handleLogin = e =>{
+        e.preventDefault();
+        const form = new FormData(e.currentTarget);
+        const email = form.get('email');
+        const password = form.get('password');
+        console.log(email,password);
+        // sign in user
+       
+    }
   return (
     <div className="max-w-6xl mx-auto">
       <Header></Header>
-
       <div className="mx-auto hero-content">
         <div className="rounded-none border w-5/12">
-        <form className="p-6">
+        <form onSubmit={handleLogin} className="p-6">
             <h2 className="font-bold text-4xl">Login</h2>
             <div className="my-6">
               <input
